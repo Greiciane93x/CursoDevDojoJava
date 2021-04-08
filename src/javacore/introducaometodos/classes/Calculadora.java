@@ -29,5 +29,16 @@ public class Calculadora {
 		System.out.println("Não é possível dividir por zero!");
 		
 	}
+	
+	public void alteraDoisNumeros(int a, int b) {
+		a = 30; 
+		b = 40;  
+		
+		System.out.println("Dentro do altera dois numeros");
+		System.out.println("num1: " + a);
+		System.out.println("num2: " + b);
+		
+		
+	}
 
 }
