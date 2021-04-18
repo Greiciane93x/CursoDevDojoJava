@@ -8,10 +8,12 @@ public class EstudanteTest {
 		
 		Estudante joao = new Estudante();
 		joao.nome = "João"; 
-		joao.matricula = "231231"; 
+		// joao.matricula = "231231"; 
 		joao.idade = 15; 
 		
-		System.out.println(joao.nome + ", \n" + joao.idade + ", \n" + joao.matricula);
+		// System.out.println(joao.nome + ", \n" + joao.idade + ", \n" + joao.matricula);
+		
+		joao.mediaEstudante(10,5,7);
 		
 	}
 
