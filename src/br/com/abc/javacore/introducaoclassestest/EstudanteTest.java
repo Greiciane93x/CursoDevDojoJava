@@ -16,8 +16,7 @@ public class EstudanteTest {
 		//joao.mediaEstudante(10,5,7);
 		estudante.setNome("Ane");
 		estudante.setIdade(-1); 
-		
-		System.out.println(estudante.getNome() + "\n" + estudante.getIdade());
+		System.out.println();
 		
 	}
 
